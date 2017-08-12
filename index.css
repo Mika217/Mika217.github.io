@@ -1,0 +1,173 @@
+
+*{
+    box-sizing:border-box;
+
+}
+
+html, body{
+    margin:0;
+    padding:0;
+}
+
+
+
+nav{
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.row ul{
+    margin: 0 ;
+    list-style-type:none;
+}
+
+.row li{
+    height: 50px;
+    width: 12%;
+    font-size:90%;
+    line-height: 40px;
+    float: right;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.logo{
+  float:left;
+  font-family: verdana;
+  font-size: 150%;
+  text-align:center;
+  margin-top: 18px;
+  margin-left: 45px;
+}
+
+
+
+nav{
+    background: #E6C3C3;
+    color:#b73c3c;
+    font-weight:bold;
+}
+
+.row a:link{ 
+ color:#b73c3c;
+ text-decoration:none;
+}
+
+.row a:hover{
+   color:#723e3c;
+   font-size:18px;
+}
+
+.white{
+  width:20px;
+  height:20px;
+}
+
+.banner img{
+    background-image: url(http://wallpaperstock.net/london-hdr-wallpapers_34631_852x480.jpg);
+    margin: 0 auto;
+    width:100%; 
+    height:600px;
+    padding: 0px;
+}
+
+.introduction img{
+  width:600px;
+  height:600px;
+  float:left;
+  padding-top:100px; 
+  padding-left:100px; 
+  padding-right:50px; 
+  padding-bottom:100px; 
+  margin-top:5px; 
+  margin-left:10%; 
+  margin-right:auto; 
+}
+
+#word ul{
+  padding-top:190px; 
+  padding-left:100px; 
+  padding-right:100px; 
+  padding-bottom:100px;
+  margin-top:5px; 
+  margin-left:10%; 
+  margin-right:auto; 
+  margin-bottom:50px;
+  line-height: 35px;
+  color:#b73c3c;
+  
+}
+
+.about img{
+  border-radius:50%;
+  width:300px;
+  height:300px;
+  display: block;
+  margin: 0px auto;
+  clear: both;
+}
+
+.about_text ul {
+  text-align: center;
+}
+
+.about_text {
+  text-align: center;
+  margin-top: 30px;
+  color:#b73c3c;
+  
+/*   padding-top:10px; 
+  padding-left:100px; 
+  padding-right:100px; 
+  padding-bottom:80px;
+  margin-top:7px; 
+  margin-left:26%; 
+  margin-right:auto; 
+  margin-bottom:1px; */
+}
+
+.phototitle{
+  color:#b73c3c;
+  font-size: 150%;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 40px;
+  color:#b73c3c;
+}
+
+
+.pic ul{
+    list-style: none;
+}
+
+
+.pic img{
+  margin-top:1px; 
+  margin-left:80px; 
+  margin-right:auto; 
+  margin-bottom:10px;
+  width: 280px; 
+  height: 200px;
+  padding: 0 2px;
+  text-align : center;
+  float: left;
+}
+
+.clearfix{
+  clear: both;
+  height: 60px;
+}
+
+
+footer {
+color: white;
+height: 150px;
+text-align: center;
+font-size: 10px;
+padding-top: 70px;
+background-color:#E6C3C3;
+}
